@@ -8,10 +8,10 @@ namespace ConsoleApp1
 {
     public class Submission
     {
-        // Update these URLs to point to your GitHub Pages location.
-        public static string xmlURL = "https://<your-github-username>.github.io/HotelDirectory/Hotels.xml";
-        public static string xmlErrorURL = "https://<your-github-username>.github.io/HotelDirectory/HotelsErrors.xml";
-        public static string xsdURL = "https://<your-github-username>.github.io/HotelDirectory/Hotels.xsd";
+        // Point to your GitHub Pages URLs.
+        public static string xmlURL = "https://chutch15.github.io/HotelDirectory/Hotels.xml";
+        public static string xmlErrorURL = "https://chutch15.github.io/HotelDirectory/HotelsErrors.xml";
+        public static string xsdURL = "https://chutch15.github.io/HotelDirectory/Hotels.xsd";
 
         public static void Main(string[] args)
         {
@@ -100,9 +100,9 @@ namespace ConsoleApp1
                     {
                         ["Number"] = addressNode.SelectSingleNode("Number")?.InnerText,
                         ["Street"] = addressNode.SelectSingleNode("Street")?.InnerText,
-                        ["City"] = addressNode.SelectSingleNode("City")?.InnerText,
-                        ["State"] = addressNode.SelectSingleNode("State")?.InnerText,
-                        ["Zip"] = addressNode.SelectSingleNode("Zip")?.InnerText
+                        ["City"]   = addressNode.SelectSingleNode("City")?.InnerText,
+                        ["State"]  = addressNode.SelectSingleNode("State")?.InnerText,
+                        ["Zip"]    = addressNode.SelectSingleNode("Zip")?.InnerText
                     };
 
                     // Convert the required attribute to _NearestAirport.
