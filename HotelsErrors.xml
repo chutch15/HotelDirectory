@@ -8,16 +8,16 @@
     <Name>Westin</Name>
     <Phone>480-968-8885</Phone>
     <Phone>800-937-8461</Phone>
-    <Address NearestAirport="Sky Harbor">
+    <Address NearstAirport="Sky Habor">
       <Number>11</Number>
-      <Street>E.7th St</Street>
+      <Street>E 7th St</Street>
       <City>Tempe</City>
       <State>AZ</State>
       <Zip>85281</Zip>
     </Address>
   </Hotel>
 
-  <!-- 2) Marriott (missing required attribute "NearestAirport") -->
+  <!-- 2) Marriott (missing required attribute "NearstAirport") -->
   <Hotel Rating="3.9">
     <Name>Marriott Downtown</Name>
     <Phone>602-555-1234</Phone>
@@ -33,7 +33,7 @@
   <!-- 3) Hilton (missing Phone element entirely) -->
   <Hotel>
     <Name>Hilton Garden Inn</Name>
-    <Address NearestAirport="Sky Harbor">
+    <Address NearstAirport="Sky Habor">
       <Number>300</Number>
       <Street>West Van Buren</Street>
       <City>Phoenix</City>
@@ -47,7 +47,7 @@
     <Name>Hyatt Regency</Name>
     <Phone>480-222-3333</Phone>
     <Phone>480-222-4444</Phone>
-    <Address NearestAirport="Sky Harbor">
+    <Address NearstAirport="Sky Habor">
       <Number>122</Number>
       <Street>East 2nd St</Street>
       <City>Scottsdale</City>
@@ -61,7 +61,7 @@
     <Name>Sheraton Grand</Name>
     <Name>Duplicate Name</Name>
     <Phone>480-777-8888</Phone>
-    <Address NearestAirport="Phoenix-Mesa Gateway">
+    <Address NearstAirport="Phoenix-Mesa Gateway">
       <Number>50</Number>
       <Street>South Mill Ave</Street>
       <City>Tempe</City>
