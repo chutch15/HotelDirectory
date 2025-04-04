@@ -7,9 +7,9 @@
     <Name>Westin</Name>
     <Phone>480-968-8885</Phone>
     <Phone>800-937-8461</Phone>
-    <Address NearestAirport="Sky Harbor">
+    <Address NearstAirport="Sky Habor">
       <Number>11</Number>
-      <Street>E.7th St</Street>
+      <Street>E 7th St</Street>
       <City>Tempe</City>
       <State>AZ</State>
       <Zip>85281</Zip>
@@ -20,7 +20,7 @@
   <Hotel Rating="3.9">
     <Name>Marriott Downtown</Name>
     <Phone>602-555-1234</Phone>
-    <Address NearestAirport="Phoenix Sky Harbor">
+    <Address NearstAirport="Phoenix Sky Harbor">
       <Number>100</Number>
       <Street>Main Street</Street>
       <City>Phoenix</City>
@@ -33,7 +33,7 @@
   <Hotel>
     <Name>Hilton Garden Inn</Name>
     <Phone>602-999-9999</Phone>
-    <Address NearestAirport="Sky Harbor">
+    <Address NearstAirport="Sky Habor">
       <Number>300</Number>
       <Street>West Van Buren</Street>
       <City>Phoenix</City>
@@ -47,7 +47,7 @@
     <Name>Hyatt Regency</Name>
     <Phone>480-222-3333</Phone>
     <Phone>480-222-4444</Phone>
-    <Address NearestAirport="Sky Harbor">
+    <Address NearstAirport="Sky Habor">
       <Number>122</Number>
       <Street>East 2nd St</Street>
       <City>Scottsdale</City>
@@ -60,7 +60,7 @@
   <Hotel Rating="4.0">
     <Name>Sheraton Grand</Name>
     <Phone>480-777-8888</Phone>
-    <Address NearestAirport="Phoenix-Mesa Gateway">
+    <Address NearstAirport="Phoenix-Mesa Gateway">
       <Number>50</Number>
       <Street>South Mill Ave</Street>
       <City>Tempe</City>
@@ -73,7 +73,7 @@
   <Hotel>
     <Name>Best Western Plus</Name>
     <Phone>928-123-4567</Phone>
-    <Address NearestAirport="Flagstaff Pulliam">
+    <Address NearstAirport="Flagstaff Pulliam">
       <Number>101</Number>
       <Street>Route 66</Street>
       <City>Flagstaff</City>
@@ -87,7 +87,7 @@
     <Name>Holiday Inn Express</Name>
     <Phone>928-555-0101</Phone>
     <Phone>928-555-0102</Phone>
-    <Address NearestAirport="Flagstaff Pulliam">
+    <Address NearstAirport="Flagstaff Pulliam">
       <Number>222</Number>
       <Street>Lucky Lane</Street>
       <City>Flagstaff</City>
@@ -100,7 +100,7 @@
   <Hotel Rating="5.0">
     <Name>Four Seasons Resort</Name>
     <Phone>480-888-9999</Phone>
-    <Address NearestAirport="Phoenix Sky Harbor">
+    <Address NearstAirport="Phoenix Sky Harbor">
       <Number>5000</Number>
       <Street>East Camelback Rd</Street>
       <City>Phoenix</City>
@@ -113,7 +113,7 @@
   <Hotel>
     <Name>Radisson Hotel Phoenix</Name>
     <Phone>480-123-9999</Phone>
-    <Address NearestAirport="Sky Harbor">
+    <Address NearstAirport="Sky Habor">
       <Number>255</Number>
       <Street>North 44th St</Street>
       <City>Phoenix</City>
@@ -127,7 +127,7 @@
     <Name>Courtyard by Marriott</Name>
     <Phone>480-999-1234</Phone>
     <Phone>480-999-5678</Phone>
-    <Address NearestAirport="Phoenix Sky Harbor">
+    <Address NearstAirport="Phoenix Sky Harbor">
       <Number>153</Number>
       <Street>South Price Rd</Street>
       <City>Tempe</City>
@@ -140,7 +140,7 @@
   <Hotel Rating="3.2">
     <Name>Aloft Tempe</Name>
     <Phone>480-555-2222</Phone>
-    <Address NearestAirport="Phoenix Sky Harbor">
+    <Address NearstAirport="Phoenix Sky Harbor">
       <Number>951</Number>
       <Street>East Playa Del Norte Dr</Street>
       <City>Tempe</City>
