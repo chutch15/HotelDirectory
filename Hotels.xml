@@ -2,7 +2,7 @@
 <Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:noNamespaceSchemaLocation="https://chutch15.github.io/HotelDirectory/Hotels.xsd">
 
-  <!-- 1) Example from Figure 1 -->
+  <!-- 1) example from Figure 1 -->
   <Hotel Rating="4.2">
     <Name>Westin</Name>
     <Phone>480-968-8885</Phone>
@@ -16,7 +16,7 @@
     </Address>
   </Hotel>
 
-  <!-- 2) Marriott -->
+  <!-- 2) marriott -->
   <Hotel Rating="3.9">
     <Name>Marriott Downtown</Name>
     <Phone>602-555-1234</Phone>
@@ -29,7 +29,7 @@
     </Address>
   </Hotel>
 
-  <!-- 3) Hilton (no Rating) -->
+  <!-- 3) hilton (no rating) -->
   <Hotel>
     <Name>Hilton Garden Inn</Name>
     <Phone>602-999-9999</Phone>
@@ -42,7 +42,7 @@
     </Address>
   </Hotel>
 
-  <!-- 4) Hyatt with multiple phones -->
+  <!-- 4) hyatt with multiple phones -->
   <Hotel Rating="4.5">
     <Name>Hyatt Regency</Name>
     <Phone>480-222-3333</Phone>
@@ -56,7 +56,7 @@
     </Address>
   </Hotel>
 
-  <!-- 5) Sheraton -->
+  <!-- 5) sheraton -->
   <Hotel Rating="4.0">
     <Name>Sheraton Grand</Name>
     <Phone>480-777-8888</Phone>
@@ -69,7 +69,7 @@
     </Address>
   </Hotel>
 
-  <!-- 6) Best Western (no Rating) -->
+  <!-- 6) best western (no rating) -->
   <Hotel>
     <Name>Best Western Plus</Name>
     <Phone>928-123-4567</Phone>
@@ -82,7 +82,7 @@
     </Address>
   </Hotel>
 
-  <!-- 7) Holiday Inn with multiple phones -->
+  <!-- 7) holiday inn with multiple phones -->
   <Hotel Rating="3.7">
     <Name>Holiday Inn Express</Name>
     <Phone>928-555-0101</Phone>
@@ -96,7 +96,7 @@
     </Address>
   </Hotel>
 
-  <!-- 8) Four Seasons -->
+  <!-- 8) four seasons -->
   <Hotel Rating="5.0">
     <Name>Four Seasons Resort</Name>
     <Phone>480-888-9999</Phone>
@@ -109,7 +109,7 @@
     </Address>
   </Hotel>
 
-  <!-- 9) Radisson -->
+  <!-- 9) radisson -->
   <Hotel>
     <Name>Radisson Hotel Phoenix</Name>
     <Phone>480-123-9999</Phone>
@@ -122,7 +122,7 @@
     </Address>
   </Hotel>
 
-  <!-- 10) Courtyard by Marriott (multiple phones, no Rating) -->
+  <!-- 10) courtyard by marriott (multiple phones, no rating) -->
   <Hotel>
     <Name>Courtyard by Marriott</Name>
     <Phone>480-999-1234</Phone>
@@ -136,7 +136,7 @@
     </Address>
   </Hotel>
 
-  <!-- 11) Aloft -->
+  <!-- 11) aloft -->
   <Hotel Rating="3.2">
     <Name>Aloft Tempe</Name>
     <Phone>480-555-2222</Phone>
