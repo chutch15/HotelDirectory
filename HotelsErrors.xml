@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- (1) WRONG root element name: "Hotel" instead of "Hotels" -->
 <Hotel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="https://chutch15.github.io/HotelDirectory/Hotels.xsd">
 
-  <!-- 1) Example from Figure 1 (this entry remains correct) -->
+  <!-- 1) example from Figure 1 -->
   <Hotel Rating="4.2">
     <Name>Westin</Name>
     <Phone>480-968-8885</Phone>
@@ -17,7 +16,7 @@
     </Address>
   </Hotel>
 
-  <!-- 2) Marriott (missing required attribute "NearstAirport") -->
+  <!-- 2) marriott (missing required attribute) -->
   <Hotel Rating="3.9">
     <Name>Marriott Downtown</Name>
     <Phone>602-555-1234</Phone>
@@ -30,7 +29,7 @@
     </Address>
   </Hotel>
 
-  <!-- 3) Hilton (missing Phone element entirely) -->
+  <!-- 3) hilton (missing Phone element entirely) -->
   <Hotel>
     <Name>Hilton Garden Inn</Name>
     <Address NearstAirport="Sky Habor">
@@ -42,7 +41,7 @@
     </Address>
   </Hotel>
 
-  <!-- 4) Hyatt with multiple phones, but "Address" has NO closing tag -->
+  <!-- 4) hyatt with multiple phones, but "Address" has no closing tag -->
   <Hotel Rating="4.5">
     <Name>Hyatt Regency</Name>
     <Phone>480-222-3333</Phone>
@@ -53,10 +52,10 @@
       <City>Scottsdale</City>
       <State>AZ</State>
       <Zip>85251</Zip>
-    <!-- MISSING </Address> closing tag -->
+    <!-- missing </Address> closing tag -->
   </Hotel>
 
-  <!-- 5) Sheraton with TWO <Name> elements -->
+  <!-- 5) sheraton with 2 <Name> elements -->
   <Hotel Rating="4.0">
     <Name>Sheraton Grand</Name>
     <Name>Duplicate Name</Name>
